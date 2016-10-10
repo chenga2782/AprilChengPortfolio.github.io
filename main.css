@@ -1,0 +1,49 @@
+body {
+	text-decoration: none;
+	background: #d9ffdb;
+	font: 100% Calibri, Times, serif;
+	color: #595959;
+}
+h1 {
+	font: 400% Georgia, verdana, Times;
+	color: black;
+}
+h2 {
+	font: 150% Georgia, verdana, Times;
+	color: #404040;
+}
+#wrapper {
+	width: 100%-150px;
+	margin: 100 auto;
+	padding: 0 0 0 75px;
+	text-align: left;
+	position: relative;
+}
+#mainHeader {
+	height: 225px;
+	background: url(images/logo.png) no-repeat 25px center;
+	padding: 10px 0 35px 350px;
+	position: relative;
+	border-bottom: 2px solid #7f7f7f;
+	margin-bottom: 16px;
+	color: #404040;
+}
+#mainheader div {
+	margin-top: 16px;
+}
+#mainHeader ul {
+	list-style: none;
+	float: left
+}
+#mainHeader ul li {
+	float: left;
+}
+#mainHeader ul li a {
+	font-size: 20px;
+	padding: 0 20px;
+	border-right: 1px solid black;
+	text-decoration: none;
+}
+#mainHeader ul li a:hover {
+	color: #00cc66;
+}
